@@ -21,7 +21,7 @@ def ask_user(answers_dict):
     """
     Замените pass на ваш код
     """
-    questions = input("Ваш вопрос?")
+    questions = input("Ваш вопрос? ")
 
     if questions in answers_dict:
       print(answers_dict[questions])

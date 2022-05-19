@@ -10,9 +10,6 @@
     
 """
 
-from ast import While
-from tkinter import W
-
 questions_and_answers = {"Как дела": "Хорошо!", "Что делаешь?": "Программирую"} 
 
 def hello_user():
@@ -21,9 +18,9 @@ def hello_user():
     """
     while True:
       try:
-       questions = input("Ваш вопрос?")
+       questions = input("Ваш вопрос? ")
       except KeyboardInterrupt:
-        print("Пока!")
+        print("\nПока!")
         break
 
       if questions in questions_and_answers:
