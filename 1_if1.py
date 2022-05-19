@@ -14,8 +14,6 @@
 
 """
 
-from ast import Return
-
 
 def main():
     """
